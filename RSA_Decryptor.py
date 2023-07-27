@@ -16,7 +16,10 @@ def Key_Gen(prime1, prime2):
 
     Open_Key = 7 * prime1
 
-    Secret_Key = pow(Open_Key, -1, phi)
+    try:
+        Secret_Key = pow(Open_Key, -1, phi)
+    except ValueError:
+        return print("Failed to generate keys, please try again")
     return [Secret_Key, Open_Key, Prime_multiplication]
 
 
@@ -32,7 +35,10 @@ def main():
     with open("Data_Prime_Number.json", "r") as f:
         prime_number = random.sample(json.loads(f.read()), 2)
     with open("Key_Gen.json", "w") as file:
-        json.dump(Key_Gen(prime_number[0], prime_number[1])[1:], file, indent=4)
+        try:
+            json.dump(Key_Gen(prime_number[0], prime_number[1])[1:], file, indent=4)
+        except TypeError:
+            return
     print("Please wait 25 seconds")
     expectation(25)
     with open("Crypt_message.json", "r") as r:
