@@ -1,5 +1,5 @@
 <div align="right">
-  This page also in:
+  Эта страница также на:
   <a title="Русский" href="README_ru.md"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Flag_of_Russia_%28Kremlin.ru%29.svg/640px-Flag_of_Russia_%28Kremlin.ru%29.svg.png" height="11px"/></a>
   </div>
 
