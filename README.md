@@ -1,3 +1,8 @@
+<div align="right">
+  This page also in:
+  <a title="Русский" href="README_ru.md"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Flag_of_Russia_%28Kremlin.ru%29.svg/640px-Flag_of_Russia_%28Kremlin.ru%29.svg.png" height="11px"/></a>
+  </div>
+
 <h1>RSA project</h1>
 <h2>How it works</h2>
 <h2>Step 1:</h2>
