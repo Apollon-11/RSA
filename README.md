@@ -10,4 +10,4 @@
 <h2>Step 2:</h2>
 <h3>Run Cryptor.py and write the text you want to encrypt </h3>
 <h2>Step 3:</h2>
-<h3>file Decryptor.py file outputs your message</h3>
+<h3>Decryptor.py file outputs your message</h3>
